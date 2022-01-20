@@ -26,6 +26,11 @@ Maven
 - Ans:- On a mvn install, it frames a dependency tree based on the project configuration pom.xml on all the sub projects under the super pom.xml (the root POM) and downloads/compiles all the needed components in a directory called .m2 under the user's folder. These dependencies will have to be resolved for the project to be built without any errors, and mvn install is one utility that could download most of the dependencies.
 6. what are the settings you need to do before running mvn deploy?
 7. why maven takes much time for 1st execution and from 2nd execution it will take less time?
+- Ans:- That's exactly what happens it downloads all dependencies needed to your machine in the configured local repository usually [userfolder]/.m2/repository
+
+Depending on how many dependencies (and its dependencies, called indirect dependencies) your project has it will download all plus the needed dependencies for maven plugins itself. The ones configured in your project and the ones for the normal goals you are executing.
+
+All the downloaded dependencies will be in your local repository for your current project and for the new ones as well.
 
 Unix and Shell Scripting 
 --------------------------------------------------------------------------------------------------------
