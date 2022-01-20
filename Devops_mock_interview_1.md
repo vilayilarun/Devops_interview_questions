@@ -9,9 +9,9 @@ Unlike SVN, Git utilizes multiple repositories: a central repository and a serie
 - It’s faster to commit. Because you commit to the central repository more often in SVN, network traffic slows everyone down. Whereas with Git, you’re working mostly on your local repository and only committing to the central repository every so often.
 - No more single point of failure. With SVN, if the central repository goes down or some code breaks the build, no other developers can commit their code until the repository is fixed. With Git, each developer has their own repository, so it doesn’t matter if the central repository is broken. Developers can continue to commit code locally until the central repository has been fixed, and then they can push their changes.
 - It’s available offline. Unlike SVN, Git can work offline, allowing your team to continue working without losing features if they lose connection.
-3. Let's say i have maven repo cloned on to my local, did some changes and i have build the code now target folder will be generated. So now when i do git operations like git add, git commit or any other git operations target folder should not be considered, how would you achieve the same?
-4. difference between git pull and git fetch?
-5. How to clone specific branch in git?
+2. Let's say i have maven repo cloned on to my local, did some changes and i have build the code now target folder will be generated. So now when i do git operations like git add, git commit or any other git operations target folder should not be considered, how would you achieve the same?
+3. difference between git pull and git fetch?
+4. How to clone specific branch in git?
 
 Maven
 --------------------------------------------------------------------------------------------------------------------------
