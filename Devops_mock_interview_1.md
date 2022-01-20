@@ -23,6 +23,7 @@ git clone --single-branch --branch <branchname> <remote-repo>
 Maven
 --------------------------------------------------------------------------------------------------------------------------
 5. when i issue mvn install what all things happen in background?
+- Ans:- On a mvn install, it frames a dependency tree based on the project configuration pom.xml on all the sub projects under the super pom.xml (the root POM) and downloads/compiles all the needed components in a directory called .m2 under the user's folder. These dependencies will have to be resolved for the project to be built without any errors, and mvn install is one utility that could download most of the dependencies.
 6. what are the settings you need to do before running mvn deploy?
 7. why maven takes much time for 1st execution and from 2nd execution it will take less time?
 
