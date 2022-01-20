@@ -31,8 +31,9 @@ Maven
 Unix and Shell Scripting 
 --------------------------------------------------------------------------------------------------------
 8. How to get present working folder?
+- Ans:- The current working directory is conveniently stored in the variable $PWD which is available in all POSIX compliant shells. Another option to get the current working directory is by using the pwd command. That pwd command is a shell builtin and available in all POSIX compliant shells as well.
 9. How to copy files from local windows machine to cloud based Linux machine?
-10. A shell script named test.sh can accept 4 parameters i.e, a,b,c,d. the parameters wont be supplied in order always and number of parameters might also vary( only 2 parameters user might supply sometimes), how to identify position of letter c?
+11. A shell script named test.sh can accept 4 parameters i.e, a,b,c,d. the parameters wont be supplied in order always and number of parameters might also vary( only 2 parameters user might supply sometimes), how to identify position of letter c?
 
 Ansible
 ---------------------------------------------------------------------------------------------------------------------
