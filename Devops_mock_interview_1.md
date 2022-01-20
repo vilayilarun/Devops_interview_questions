@@ -4,9 +4,10 @@
 GIT
 ---------------------------------------------------------------------------------------------------------------------------------
 1. Why we need git? What makes git unique from other tools like SVN?
-2. Let's say i have maven repo cloned on to my local, did some changes and i have build the code now target folder will be generated. So now when i do git operations like git add, git commit or any other git operations target folder should not be considered, how would you achieve the same?
-3. difference between git pull and git fetch?
-4. How to clone specific branch in git?
+- Ans:- Git is the most commonly used version control system. Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source
+3. Let's say i have maven repo cloned on to my local, did some changes and i have build the code now target folder will be generated. So now when i do git operations like git add, git commit or any other git operations target folder should not be considered, how would you achieve the same?
+4. difference between git pull and git fetch?
+5. How to clone specific branch in git?
 
 Maven
 --------------------------------------------------------------------------------------------------------------------------
