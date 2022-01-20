@@ -12,7 +12,7 @@ Unlike SVN, Git utilizes multiple repositories: a central repository and a serie
 2. Let's say i have maven repo cloned on to my local, did some changes and i have build the code now target folder will be generated. So now when i do git operations like git add, git commit or any other git operations target folder should not be considered, how would you achieve the same?
 - Ans:- Using a ".gitignore" file, A gitignore file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected;  
 3. difference between git pull and git fetch?
-Ans:- In the simplest terms, git pull does a git fetch followed by a git merge.
+- Ans:- In the simplest terms, git pull does a git fetch followed by a git merge.
 You can do a git fetch at any time to update your remote-tracking branches. This operation never changes any of your own local branches, and is safe to do without changing your working copy. A git pull is what you would do to bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
 4. How to clone specific branch in git?
 
