@@ -10,7 +10,7 @@ Unlike SVN, Git utilizes multiple repositories: a central repository and a serie
 - No more single point of failure. With SVN, if the central repository goes down or some code breaks the build, no other developers can commit their code until the repository is fixed. With Git, each developer has their own repository, so it doesn’t matter if the central repository is broken. Developers can continue to commit code locally until the central repository has been fixed, and then they can push their changes.
 - It’s available offline. Unlike SVN, Git can work offline, allowing your team to continue working without losing features if they lose connection.
 2. Let's say i have maven repo cloned on to my local, did some changes and i have build the code now target folder will be generated. So now when i do git operations like git add, git commit or any other git operations target folder should not be considered, how would you achieve the same?
-- Ans:- A gitignore file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected;  
+- Ans:- Using a ".gitignore" file, A gitignore file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected;  
 3. difference between git pull and git fetch?
 5. How to clone specific branch in git?
 
