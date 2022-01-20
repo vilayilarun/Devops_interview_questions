@@ -15,6 +15,10 @@ Unlike SVN, Git utilizes multiple repositories: a central repository and a serie
 - Ans:- In the simplest terms, git pull does a git fetch followed by a git merge.
 You can do a git fetch at any time to update your remote-tracking branches. This operation never changes any of your own local branches, and is safe to do without changing your working copy. A git pull is what you would do to bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
 4. How to clone specific branch in git?
+- Ans:- 
+```
+git clone --single-branch --branch <branchname> <remote-repo>
+```
 
 Maven
 --------------------------------------------------------------------------------------------------------------------------
